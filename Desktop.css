@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2890D;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estrutura_da_pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 1000px;
+}
+.titulo{
+    color: black;
+    background-color: #1180E7;
+    width: 258px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:-59px ;
+}
+h1{
+    font-size:70px;
+    font-family: 'Squada One', cursive;
+}
+main{
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1084px;
+    height: 645px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.login{
+    font-weight: bold;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 18px;
+}
+input{
+    border: 3px solid #B0A3A3;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 350px;
+    height: 42px;
+}
+.nivel{
+    font-weight: bold;
+    font-family: 'Press Start 2P',cursive;
+    font-size: 18px;
+}
+select{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    width: 350px;
+    height: 42px;
+    border: 3px solid #B0A3A3;
+}
+.botãoComeçar{
+    width: 350px;
+    height: 45px;
+    border-radius: 20px;
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1180E7;
+    border: 3px solid #000000;
+}
+.linha{
+    border: 2px solid #B0A3A3;
+    height: 500px;
+}
+.texto{
+    width: 350px;
+    height: 145px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+.digiteUmNumero{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+.inputNumero{
+    border: 3px solid #B0A3A3;
+    border-radius: 5px;
+}
+.botãoJogar{
+    width: 350px;
+    height: 45px;
+    background: #F2890D;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+.final{
+    width: 350px;
+    height: 103px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
